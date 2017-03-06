@@ -16,12 +16,29 @@
     "type": "git",
     "url": "git+https://github.com/wommy/c9_npmbp-technomad.git"
   },
-  "keywords": [ "cloud9","npm","boilerplate","wommy","technomad",
-    "node","jade","pug","pug-cli","node-sass","browser-sync","parallelshell","netlify-cli"],
+  "keywords": [
+    "cloud9",
+    "npm",
+    "boilerplate",
+    "wommy",
+    "technomad",
+    "node",
+    "jade",
+    "pug",
+    "pug-cli",
+    "node-sass",
+    "browser-sync",
+    "parallelshell",
+    "netlify-cli"
+  ],
   "author": "wommy <tom@technomad.media> (wommy.io)",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/wommy/c9_npmbp-technomad/issues"
   },
-  "homepage": "https://github.com/wommy/c9_npmbp-technomad#readme"
+  "homepage": "https://github.com/wommy/c9_npmbp-technomad#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.0",
+    "pug": "^2.0.0-beta11"
+  }
 }
