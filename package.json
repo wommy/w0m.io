@@ -39,7 +39,8 @@
   "homepage": "https://github.com/wommy/c9_npmbp-technomad#readme",
   "devDependencies": {
     "node-sass": "^4.5.0",
-    "pug": "^2.0.0-beta11"
+    "pug": "^2.0.0-beta11",
+    "pug-cli": "^1.0.0-alpha6"
   },
   "dependencies": {
     "node-sass": "^4.5.0",
