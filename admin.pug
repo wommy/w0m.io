@@ -1,9 +1,9 @@
 extends ./_template.pug
 
-append style
+block style
   link(rel='stylesheet', href='https://unpkg.com/netlify-cms@^0.3/dist/cms.css')
 
-append scripts
+block scripts
   script(src='https://unpkg.com/netlify-cms@^0.3/dist/cms.js')
 
 block content
