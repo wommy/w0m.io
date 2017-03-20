@@ -2,3 +2,5 @@ backend:
   name: github
   repo: wommy/w0m.io # Path to your Github repository
   branch: test # Branch to update
+publish_mode: editorial_workflow
+media_folder: "images/uploads"
