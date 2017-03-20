@@ -1,0 +1,4 @@
+backend:
+  name: github
+  repo: wommy/w0m.io # Path to your Github repository
+  branch: test # Branch to update
