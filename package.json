@@ -12,12 +12,12 @@
     "dev": "parallelshell 'npm run html:w' 'npm run css' 'npm run css:w' 'npm run serve'",
     "build0": "npm run html && npm run css",
     "netlifyCMSadmin": "npm run netlifyCMSadmin1 && npm run netlifyCMSadmin2 && npm run netlifyCMSadmin3",
-    "netlifyCMSadmin1": "mkdir _app/admin",
+    "netlifyCMSadmin1": "mkdir _app/admin && mkdir _app/images",
     "netlifyCMSadmin2": "cp config.yml _app/admin/config.yml",
     "netlifyCMSadmin3": "mv _app/admin.html _app/admin/index.html",
     "clean": "rm -r _app",
     "build": "npm run build0 && npm run netlifyCMSadmin",
-    "build1": "npm run clean && npm run build0 && npm run netlifyCMSadmin"
+    "build1": "npm run clean && npm run build"
   },
   "repository": {
     "type": "git",
